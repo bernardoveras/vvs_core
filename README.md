@@ -137,25 +137,25 @@ Todas as features existentes no pacote são:
 ### Extensões
 
 1. double_extension:
-    1. arredondar: Arrendondar números em casas decimais.
-    2. casoForZero: Retorna um valor X caso o valor atual for zero.
-    3. getValueOrDefault: Retornar um valor X caso o valor atual for nulo.
+    - arredondar: Arrendondar números em casas decimais.
+    - casoForZero: Retorna um valor X caso o valor atual for zero.
+    - getValueOrDefault: Retornar um valor X caso o valor atual for nulo.
 
 2. list_extensions:
-    1. sumBy: Somar alguma propriedade da lista.
-    2. separarComVirgulas: Separar valores por virgulas
+    - sumBy: Somar alguma propriedade da lista.
+    - separarComVirgulas: Separar valores por virgulas
         - Exemplo: ['VVS Sistemas', 'Google'] = "VVS Sistemas, Google".
 
 3. string_extensions: 
-    1. whereNullOrEmpty: Retorna um valor caso for nulo ou vazio.
-    2. toDateTime: Retorna um DateTime a partir de uma String.
+    - whereNullOrEmpty: Retorna um valor caso for nulo ou vazio.
+    - toDateTime: Retorna um DateTime a partir de uma String.
         - O formato da string deve ser "dia/mês/ano".
-    3. capitalize: Capitalização da String
+    - capitalize: Capitalização da String
         - Exemplo: "texto exemplo PARA CAPITALIZAÇÃO" = "Texto exemplo para capitalização"
-    4. removeWhitespace: Remove todos os espaços em branco da String.
-    5. contemNumero: Verifica se a string contém números.
-    6. contemCaracterEspecial: Verifica se a string contém carácteres especiais.
-    7. isInstagramUser: Verifica se a string começa com "@".
+    - removeWhitespace: Remove todos os espaços em branco da String.
+    - contemNumero: Verifica se a string contém números.
+    - contemCaracterEspecial: Verifica se a string contém carácteres especiais.
+    - isInstagramUser: Verifica se a string começa com "@".
 
 ### Componentes
 
