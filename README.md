@@ -64,89 +64,89 @@ Todas as features existentes no pacote são:
 
 ### Utils:
 
-1. copyToClipboard: Utilitário para copiar algum texto.
+1. **copyToClipboard**: Utilitário para copiar algum texto.
 
-2. ExcludeGlowScrollBehavior: Widget para remover efeito de glow na rolagem das listas.
+2. **ExcludeGlowScrollBehavior**: Widget para remover efeito de glow na rolagem das listas.
 
-3. generateGuid: Gerar GUIDS.
+3. **generateGuid**: Gerar GUIDS.
 
-4. getClipboardData: Obter texto copiado do clipboard.
+4. **getClipboardData**: Obter texto copiado do clipboard.
 
-5. hideKeyboard: Utilitário para fechar o teclado.
+5. **hideKeyboard**: Utilitário para fechar o teclado.
 
-6. keyboardIsOpened: Utilitário para verificar se o teclado está aberto.
+6. **keyboardIsOpened**: Utilitário para verificar se o teclado está aberto.
 
-7. Resulter: Classe para separar o caso de sucesso e erro em uma única classe.
+7. **Resulter**: Classe para separar o caso de sucesso e erro em uma única classe.
 
-8. formatCurrency: Utilitário para formatar números para o formato -> "R$ 9.999,99".
+8. **formatCurrency**: Utilitário para formatar números para o formato -> "R$ 9.999,99".
 
-9. formatDate: Utilitário para formatar datas.
+9. **formatDate**: Utilitário para formatar datas.
 
-10. formatDecimal: Utilitário para formatar números para o formato -> "1.000.000,00".
+10. **formatDecimal**: Utilitário para formatar números para o formato -> "1.000.000,00".
 
-11. formatPercentage: Utilitário para formatar números para o formato -> "10%".
+11. **formatPercentage**: Utilitário para formatar números para o formato -> "10%".
 
-12. formatTelefone: Utilitário para formatar strings para o formato -> "(xx) xxxxx-xxxx".
+12. **formatTelefone**: Utilitário para formatar strings para o formato -> "(xx) xxxxx-xxxx".
 
-13. CepHelper: Helper para validar, formatar e remover carácteres do CEP.
+13. **CepHelper**: Helper para validar, formatar e remover carácteres do CEP.
 
-14. CnpjHelper: Helper para validar, formatar, gerar e remover carácteres do CNPJ.
+14. **CnpjHelper**: Helper para validar, formatar, gerar e remover carácteres do CNPJ.
 
-15. CpfCnpjHelper: Helper para validar, formatar e remover carácteres do CPF ou CNPJ.
+15. **CpfCnpjHelper**: Helper para validar, formatar e remover carácteres do CPF ou CNPJ.
 
-16. TelefoneHelper: Helper para formatar e remover carácteres do Telefone.
+16. **TelefoneHelper**: Helper para formatar e remover carácteres do Telefone.
 
-17. CentavosInputFormatter: Input formatter para formatar moedas com centavos em Text Field's.
+17. **CentavosInputFormatter**: Input formatter para formatar moedas com centavos em Text Field's.
 
-18. CepInputFormatter: Input formatter para formatar cep's em Text Field's.
+18. **CepInputFormatter**: Input formatter para formatar cep's em Text Field's.
 
-19. CnpjInputFormatter: Input formatter para formatar cnpj's em Text Field's.
+19. **CnpjInputFormatter**: Input formatter para formatar cnpj's em Text Field's.
 
-20. CpfInputFormatter: Input formatter para formatar cpf's em Text Field's.
+20. **CpfInputFormatter**: Input formatter para formatar cpf's em Text Field's.
 
-21. CpfOuCnpjFormatter: Input formatter para formatar cpf's ou cnpj's em Text Field's.
+21. **CpfOuCnpjFormatter**: Input formatter para formatar cpf's ou cnpj's em Text Field's.
 
-22. DataInputFormatter: Input formatter para formatar datas em Text Field's.
+22. **DataInputFormatter**: Input formatter para formatar datas em Text Field's.
 
-23. PlacaVeiculoInputFormatter: Input formatter para formatar placas de veículos em Text Field's.
+23. **PlacaVeiculoInputFormatter**: Input formatter para formatar placas de veículos em Text Field's.
 
-24. RealInputFormatter: Input formatter para formatar moedas em Text Field's.
+24. **RealInputFormatter**: Input formatter para formatar moedas em Text Field's.
 
-25. TelefoneInputFormatter: Input formatter para formatar telefones em Text Field's.
+25. **TelefoneInputFormatter**: Input formatter para formatar telefones em Text Field's.
 
 ### Shared
 
-1. BaseHookView: Classe para criar views (páginas) com viewmodels utilizando o pacote "flutter_hooks".
+1. **BaseHookView**: Classe para criar views (páginas) com viewmodels utilizando o pacote "flutter_hooks".
 
-2. BaseView: Classe para criar views com viewmodels.
+2. **BaseView**: Classe para criar views com viewmodels.
 
-3. BaseViewModel: Classe para criar viewmodels.
+3. **BaseViewModel**: Classe para criar viewmodels.
 
 ### Services
 
-1. FlutterDialogService: Serviço utilizado para exibir dialog's.
+1. **FlutterDialogService**: Serviço utilizado para exibir dialog's.
     - Este serviço não utiliza nenhum pacote externo para exibição de dialog's, para utilizar siga os passos que estão no arquivo "flutter_dialog_service.dart".
 
-2. VvsSistemasDioAdapter: Adaptador do HTTP Client para requisições para api's com o padrão de response da VVS Sistemas.
+2. **VvsSistemasDioAdapter**: Adaptador do HTTP Client para requisições para api's com o padrão de response da VVS Sistemas.
 
-3. InternetConnectivityPlusService: Serviço utilizado para verificar conexão com internet.
+3. **InternetConnectivityPlusService**: Serviço utilizado para verificar conexão com internet.
     - Este serviço utiliza o pacote "connectivity_plus".
 
-4. SharedPreferencesLocalStorageService: Serviço utilizado para ler, salvar e deletar dados do local storage do dispositivo.
+4. **SharedPreferencesLocalStorageService**: Serviço utilizado para ler, salvar e deletar dados do local storage do dispositivo.
 
 ### Extensões
 
-1. double_extension:
+1. **double_extension**:
     - arredondar: Arrendondar números em casas decimais.
     - casoForZero: Retorna um valor X caso o valor atual for zero.
     - getValueOrDefault: Retornar um valor X caso o valor atual for nulo.
 
-2. list_extensions:
+2. **list_extensions**:
     - sumBy: Somar alguma propriedade da lista.
     - separarComVirgulas: Separar valores por virgulas
         - Exemplo: ['VVS Sistemas', 'Google'] = "VVS Sistemas, Google".
 
-3. string_extensions: 
+3. **string_extensions**: 
     - whereNullOrEmpty: Retorna um valor caso for nulo ou vazio.
     - toDateTime: Retorna um DateTime a partir de uma String.
         - O formato da string deve ser "dia/mês/ano".
@@ -159,7 +159,7 @@ Todas as features existentes no pacote são:
 
 ### Componentes
 
-1. CircularLoader
-2. TooltipSpan: Text.rich com Tooltip.
-3. VvsButton: Botão padrão dos app's.
-4. VvsIconButton: Botão padrão com ícone dos app's.
+1. **CircularLoader**
+2. **TooltipSpan**: Text.rich com Tooltip.
+3. **VvsButton**: Botão padrão dos app's.
+4. **VvsIconButton**: Botão padrão com ícone dos app's.
