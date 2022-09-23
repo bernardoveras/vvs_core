@@ -14,13 +14,13 @@ dependencies:
   flutter:
     sdk: flutter
   uuid: ^3.0.6
-  equatable: ^2.0.3
+  equatable: ^2.0.5
   animate_do: ^2.1.0
   google_fonts: ^3.0.1
   intl: ^0.17.0
-  flutter_hooks: ^0.18.4
-  package_info_plus: ^1.4.2
-  connectivity_plus: ^2.3.6+1
+  flutter_hooks: ^0.18.5+1
+  package_info_plus: ^1.4.3+1
+  connectivity_plus: ^2.3.7
 
 dev_dependencies:
   flutter_test:
