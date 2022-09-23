@@ -137,25 +137,25 @@ Todas as features existentes no pacote são:
 ### Extensões
 
 1. **double_extension**:
-    - arredondar: Arrendondar números em casas decimais.
-    - casoForZero: Retorna um valor X caso o valor atual for zero.
-    - getValueOrDefault: Retornar um valor X caso o valor atual for nulo.
+    - **arredondar**: Arrendondar números em casas decimais.
+    - **casoForZero**: Retorna um valor X caso o valor atual for zero.
+    - **getValueOrDefault**: Retornar um valor X caso o valor atual for nulo.
 
 2. **list_extensions**:
-    - sumBy: Somar alguma propriedade da lista.
-    - separarComVirgulas: Separar valores por virgulas
+    - **sumBy**: Somar alguma propriedade da lista.
+    - **separarComVirgulas**: Separar valores por virgulas
         - Exemplo: ['VVS Sistemas', 'Google'] = "VVS Sistemas, Google".
 
 3. **string_extensions**: 
-    - whereNullOrEmpty: Retorna um valor caso for nulo ou vazio.
-    - toDateTime: Retorna um DateTime a partir de uma String.
+    - **whereNullOrEmpty**: Retorna um valor caso for nulo ou vazio.
+    - **toDateTime**: Retorna um DateTime a partir de uma String.
         - O formato da string deve ser "dia/mês/ano".
-    - capitalize: Capitalização da String
+    - **capitalize**: Capitalização da String
         - Exemplo: "texto exemplo PARA CAPITALIZAÇÃO" = "Texto exemplo para capitalização"
-    - removeWhitespace: Remove todos os espaços em branco da String.
-    - contemNumero: Verifica se a string contém números.
-    - contemCaracterEspecial: Verifica se a string contém carácteres especiais.
-    - isInstagramUser: Verifica se a string começa com "@".
+    - **removeWhitespace**: Remove todos os espaços em branco da String.
+    - **contemNumero**: Verifica se a string contém números.
+    - **contemCaracterEspecial**: Verifica se a string contém carácteres especiais.
+    - **isInstagramUser**: Verifica se a string começa com "@".
 
 ### Componentes
 
