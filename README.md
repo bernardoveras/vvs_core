@@ -1,4 +1,6 @@
-# **VVS Core** [![pub package](https://img.shields.io/pub/v/vvs_core.svg)](https://pub.dev/packages/vvs_core)
+# **VVS Core** 
+
+[![pub package](https://img.shields.io/pub/v/vvs_core.svg)](https://pub.dev/packages/vvs_core)
 
 Pacote utilizado nos projetos Flutter da empresa [VVS Sistemas](https://vvssistemas.com.br).
 
