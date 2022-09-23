@@ -38,25 +38,25 @@ import 'package:vvs_core/vvs_core.dart';
 
 As dependências que este projeto utiliza são:
 
-1. shared_preferences: Armazenar dados localmente no local storage do dispositivo.
+1. **shared_preferences**: Armazenar dados localmente no local storage do dispositivo.
 
-2. dio: Executar requisições HTTP.
+2. **dio**: Executar requisições HTTP.
 
-3. uuid: Gerar GUID's.
+3. **uuid**: Gerar GUID's.
 
-4. equatable: Igualdade entre classes.
+4. **equatable**: Igualdade entre classes.
 
-5. animate_do: Animações facilitadas.
+5. **animate_do**: Animações facilitadas.
 
-6. google_fonts: Fontes do Google.
+6. **google_fonts**: Fontes do Google.
 
-7. intl: Internacionalização.
+7. **intl**: Internacionalização.
 
-8. flutter_hooks: Gerenciar ciclos de vida de widget's.
+8. **flutter_hooks**: Gerenciar ciclos de vida de widget's.
 
-9. package_info_plus: Obter informações nativas do aplicativo.
+9. **package_info_plus**: Obter informações nativas do aplicativo.
 
-10. connectivity_plus: Verificar conexão com a internet.
+10. **connectivity_plus**: Verificar conexão com a internet.
 
 ## Utilidades do pacote
 
