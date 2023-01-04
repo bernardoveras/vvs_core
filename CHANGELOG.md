@@ -1,3 +1,5 @@
+## [1.3.1] Correções e Melhorias
+
 ## [1.3.0] Correções e Melhorias
 
 ## [1.2.9] Correções e Melhorias

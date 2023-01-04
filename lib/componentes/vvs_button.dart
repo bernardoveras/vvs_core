@@ -34,6 +34,7 @@ class VvsButton extends StatelessWidget {
     bool disabled = false,
     OutlinedBorder? shape,
     TooltipTriggerMode? toolTipTriggerMode,
+    Color loadingProgressColor = Colors.white,
   }) : super(key: key) {
     assert(text.isNotEmpty, 'A propriedade "text" não pode ser vazia.');
 
@@ -58,6 +59,7 @@ class VvsButton extends StatelessWidget {
     _mainAxisAlignment = mainAxisAlignment;
     _disabled = disabled;
     _shape = shape;
+    _loadingProgressColor = loadingProgressColor;
   }
 
   late final String _text;
@@ -69,6 +71,9 @@ class VvsButton extends StatelessWidget {
 
   /// Primary color from Theme by default
   late final Color? _color;
+
+  /// Circular progress indicator color
+  late final Color _loadingProgressColor;
 
   ///  8 by default
   late final double _radius;
@@ -121,6 +126,7 @@ class VvsButton extends StatelessWidget {
     MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
     bool disabled = false,
     TooltipTriggerMode? toolTipTriggerMode,
+    Color loadingProgressColor = Colors.white,
   }) : super(key: key) {
     assert(text.isNotEmpty, 'A propriedade "text" não pode ser vazia.');
 
@@ -145,6 +151,7 @@ class VvsButton extends StatelessWidget {
     _disabled = disabled;
     _toolTipTriggerMode = toolTipTriggerMode;
     _shape = null;
+    _loadingProgressColor = loadingProgressColor;
   }
 
   VvsButton.text(
@@ -166,6 +173,7 @@ class VvsButton extends StatelessWidget {
     MainAxisAlignment mainAxisAlignment = MainAxisAlignment.start,
     bool disabled = false,
     TooltipTriggerMode? toolTipTriggerMode,
+    Color loadingProgressColor = Colors.white,
   }) : super(key: key) {
     assert(text.isNotEmpty, 'A propriedade "text" não pode ser vazia.');
 
@@ -190,6 +198,7 @@ class VvsButton extends StatelessWidget {
     _disabled = disabled;
     _toolTipTriggerMode = toolTipTriggerMode;
     _shape = null;
+    _loadingProgressColor = loadingProgressColor;
   }
 
   double _calculateGap(BuildContext context) {
@@ -239,9 +248,9 @@ class VvsButton extends StatelessWidget {
     );
   }
 
-  Widget _buildProgressIndicator() => const Center(
+  Widget _buildProgressIndicator() => Center(
         child: CircularLoader(
-          color: Colors.white,
+          color: _loadingProgressColor,
           size: 16,
           lineWidth: 3,
         ),
